@@ -1,0 +1,196 @@
+/* Font dan background elegan */
+/* Default styles */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%; /* Lebar kontainer 100% dari viewport */
+  height: 100%; /* Tinggi kontainer 100% dari viewport */
+}
+
+/* Styles for mobile devices */
+
+@media (max-width: 767px) {
+  .container {
+    height: 100vh; /* Tinggi kontainer mengisi seluruh tinggi viewport */
+  }
+}
+
+/* Styles for tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    width: 80%; /* Lebar kontainer 80% dari viewport */
+    height: 80vh; /* Tinggi kontainer 80% dari viewport */
+  }
+}
+
+/* Styles for desktop */
+@media (min-width: 1024px) {
+  .container {
+    width: 70%; /* Lebar kontainer 70% dari viewport */
+    height: 70vh; /* Tinggi kontainer 70% dari viewport */
+  }
+}
+
+
+/* Header dengan tampilan menarik */
+header {
+   background-image: url('gambar/ict.png');
+  background-size: cover;
+  height: 11vh;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  width: 60px; /* Sesuaikan ukuran logo */
+  height: 60px; /* Sesuaikan ukuran logo */
+  border-radius: 80%; /* Membuat logo berbentuk lingkaran */
+  overflow: hidden; /* Memastikan logo tetap berbentuk lingkaran */
+margin-right: 15px;
+
+}
+
+.logo {
+  width: 100%; /* Mengisi logo sesuai dengan lebar kontainer */
+  height: 100%;/* Mengisi logo sesuai dengan tinggi kontainer */
+  object-fit: cover; /* Memastikan logo memenuhi kontainer */}
+
+
+.title {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 2px;
+font-family: Couture, Arial Rounded MT Bold;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: 2px;
+ margin-left: 10px;
+
+}
+
+
+.image-container {
+  position: relative;
+  max-width: 300px; /* Sesuaikan lebar maksimum gambar */
+  margin: 0 auto;
+}
+
+
+/* Navigasi yang lebih menonjol */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #009688;
+  text-align: right;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 5px;
+  transition: background-color 0.3s;
+
+font-size: 16px;
+font-family: Arial;
+
+}
+nav a:hover {
+  background-color: #00796b;
+
+}
+
+/* Konten dengan desain dinamis */
+#content {
+  padding: 20px;
+  background-color: #00796b;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #00bcd4;
+  font-size: 50px;
+  margin-bottom: 90px;
+}
+
+p {
+  color: #009688;
+  line-height: 1.6;
+}
+
+/* ... kode CSS lainnya ... */
+
+
+
+footer {
+  background-color:#1abc9c;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-weight: bold; 
+  font-size: 15px; /* Menambahkan ketebalan pada teks */
+}
+
+footer span {
+  color: #00bcd4; /* Mengubah warna tulisan Hak Cipta */
+}
+
+
+@media (max-width: 375px) {
+  nav ul {
+    text-align: left;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+nav a {
+ 
+  padding: 2px 7px;
+margin-bottom:0px;
+}
+}
+
+
+#content {
+  background-color: #c8e6d7;
+  padding: 20px;
+}
+   
+
+#ekstrakulikuler {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* ... kode CSS lainnya ... */
+
+.social-media a {
+  display: inline-block;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 25px;
+}
+
+
